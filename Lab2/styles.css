@@ -13,24 +13,27 @@ list-style-type: none;
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-display: flex;
-list-style-type: none;
+	display: flex;
+	list-style-type: none;
 }
 
 #flex-section2 li {
-
+	
 }
 
 #flex-section2 .item1 {
 order: 1;
+flex: 250%;
 }
 
 #flex-section2 .item2 {
 order: 3;
+flex: 250%;
 }
 
 #flex-section2 .item3 {
 order: 2;
+flex: 250%;
 }
 
 /* end Flexbox Part 2 */
