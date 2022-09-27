@@ -13,7 +13,8 @@ list-style-type: none;
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+display: flex;
+list-style-type: none;
 }
 
 #flex-section2 li {
