@@ -72,11 +72,17 @@ grid-template-rows: 100px 100px;
 /* Grid Part 2 */
 
 #grid-section2 .gridboxblue {
-
+display: grid;
+height: 125px;
+width: 400px;
 }
 
 #grid-section2 .gridboxred {
-
+display: grid;
+height: 125px;
+width: 400px;
+grid-row-start: 1;
+align-self: center;
 }
 
 /* end Grid Part 2 */
