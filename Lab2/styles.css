@@ -42,11 +42,15 @@ flex: 250%;
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 #flex-section3 .tags ul {
-
+display: flex;
+flex-flow: wrap;
+list-style-type: none;
 }
 
 /* end Flexbox Part 3 */
