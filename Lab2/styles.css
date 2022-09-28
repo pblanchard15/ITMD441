@@ -92,7 +92,7 @@ align-self: center;
 
 #grid-section3 .grid {
 display: grid;
-grid-template-columns: auto auto;
+grid-template-columns: repeat(1, .75fr);
 grid-template-rows: 100px 300px 100px;
 grid-row-gap: 10px;
 grid-column-gap: 10px;
