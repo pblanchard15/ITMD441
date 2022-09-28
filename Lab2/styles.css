@@ -99,19 +99,23 @@ grid-column-gap: 10px;
 }
 
 #grid-section3 .box1 {
-
+display: grid;
+grid-column: span 2;
 }
 
 #grid-section3 .box2 {
-
+display: grid;
+grid-column: 2/2;
 }
 
 #grid-section3 .box3 {
-
+display: grid;
+grid-row: 2;
 }
 
 #grid-section3 .box4 {
-
+display: grid;
+grid-column: span 2;
 }
 
 /* end Grid Part 3 */
