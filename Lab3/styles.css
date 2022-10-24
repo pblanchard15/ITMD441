@@ -7,3 +7,8 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+body {
+    border-style: solid;
+    border-width: medium;
+}
