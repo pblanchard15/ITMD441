@@ -16,16 +16,28 @@
     <div>Tip</div>
 
 <div class="rangeslider">
-    <input type="range" min="1" max="100" value="10"
+    <input type="range" min="0" max="100"
                    class="myslider" id="sliderRange">
   </div>
     <div>Tip Percentage</div>
     <input type="text" id="percentage"
     placeholder="Tip percentage of the Bill">
     <div>Tip Amount</div>
-    <input type="text" id="amount"
+    <input type="text" id="Tip"
     placeholder="Total amount of the Tip">
-    <div>Total Bill with Tip</div><input type="text" id="amount"
+    <div>Total Bill with Tip</div><input type="text" id="Total"
     placeholder="Total amount of the Bill plus the Tip">
+    <script>
+        var rangeslider = document.getElementById("sliderRange");
+var output = document.getElementById("demo");
+output.innerHTML = rangeslider.value;
+
+function Calculate Tip () {
+    let amount = document.querySelector('#amount').value;
+            let percentage = document.querySelector('#percentage').value;
+            let Tip = document.querySelector('#Tip').value;
+            let Total = document.querySelector('#Total').value;
+}
+    </script>
 </body>
 </html>
