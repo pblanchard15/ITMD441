@@ -36,7 +36,9 @@ function Calculate Tip () {
     let amount = document.querySelector('#amount').value;
             let percentage = document.querySelector('#percentage').value;
             let Tip = document.querySelector('#Tip').value;
-            let Total = document.querySelector('#Total').value;
+            Tip = Tip.toFixed(2);
+            let Total = amount + Tip
+            Total = Total.toFixed(2);
 }
     </script>
 </body>
