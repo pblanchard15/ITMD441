@@ -12,7 +12,7 @@
     <h2>Tip Calculator</h2>
     <div>Bill Total</div>
     <label>
-    <input type="text" id="amount"
+    <input type="number" id="TotalBill"
     placeholder="Total amount of the Bill">
     </label>
     <div>Tip</div>
@@ -24,18 +24,18 @@
   </label>
     <div>Tip Percentage</div>
     <label>
-        <input type="text" id="percentage"
-        placeholder="Tip percentage of the Bill" value="disabled" disabled>
+        <input type="number" id="tipPercentage"
+        placeholder="Tip percentage of the Bill" disabled>
     </label>
     <div>Tip Amount</div>
     <label>
-    <input type="text" id="Tip"
-    placeholder="Total amount of the Tip" value="disabled" disabled>
+    <input type="number" id="tipAmount"
+    placeholder="Total amount of the Tip" disabled>
     </label>
     <div>Total Bill with Tip</div>
     <label>
-        <input type="text" id="Total"
-    placeholder="Total amount of the Bill plus the Tip" value="disabled" disabled>
+        <input type="number" id="totalBillWithTip"
+    placeholder="Total amount of the Bill plus the Tip" disabled>
     </label>
     <script>
         var rangeslider = document.getElementById("sliderRange");
