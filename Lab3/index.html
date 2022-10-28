@@ -39,13 +39,13 @@
     placeholder="Total amount of the Bill plus the Tip" disabled>
     </label>
     <script>
-        var rangeslider = document.getElementById("sliderRange");
-var output = document.getElementById("demo");
-output.innerHTML = rangeslider.value;
 document.querySelector('#tip-calculator').onchange = function(){
+    var rangeslider = document.getElementById("sliderRange");
+var output = document.getElementById("slider");
+output.innerHTML = rangeslider.value;
 
 var Totalbill = Number(document.getElementById('Totalbill').value);
-var tip = Document.getElementById('tipAmount').value;
+var tip = Number.getElementById('tipAmount').value;
 document.getElementById('tipPercentage').innerHTML = `${tip}%`;
 var tipValue = Totalbill * (tip/100)
 var finalBill = Totalbill + tipValue
