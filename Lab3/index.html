@@ -41,14 +41,19 @@
         var rangeslider = document.getElementById("sliderRange");
 var output = document.getElementById("demo");
 output.innerHTML = rangeslider.value;
+document.querySelector('#tip-calculator').onchange = function(){
 
-function Calculate Tip () {
-    let amount = document.querySelector('#amount').value;
-            let percentage = document.querySelector('#percentage').value;
-            let Tip = document.querySelector('#Tip').value;
-            Tip = Tip.toFixed(2);
-            let Total = amount + Tip
-            Total = Total.toFixed(2);
+var Totalbill = Number(document.getElementById('Totalbill').value);
+var tip = Document.getElementById('tipAmount').value;
+document.getElementById('tipPercentage').innerHTML = `${tip}%`;
+var tipValue = Totalbill * (tip/100)
+var finalBill = Totalbill + tipValue
+console.log(finalBill)
+var tipAmount = document.querySelector('#tipAmount')
+var totalBillWithTip = document.querySelector('#totalBillWithTip')
+
+tipAmount.value = tipValue.toFixed(2);
+totalBillWithTip.value =finalBill.toFixed(2);
 }
     </script>
 </body>
