@@ -20,13 +20,20 @@
                    class="myslider" id="sliderRange">
   </div>
     <div>Tip Percentage</div>
-    <input type="text" id="percentage"
-    placeholder="Tip percentage of the Bill">
+    <label>
+        <input type="text" id="percentage"
+        placeholder="Tip percentage of the Bill" value="disabled" disabled>
+    </label>
     <div>Tip Amount</div>
+    <label>
     <input type="text" id="Tip"
-    placeholder="Total amount of the Tip">
-    <div>Total Bill with Tip</div><input type="text" id="Total"
-    placeholder="Total amount of the Bill plus the Tip">
+    placeholder="Total amount of the Tip" value="disabled" disabled>
+    </label>
+    <div>Total Bill with Tip</div>
+    <label>
+        <input type="text" id="Total"
+    placeholder="Total amount of the Bill plus the Tip" value="disabled" disabled>
+    </label>
     <script>
         var rangeslider = document.getElementById("sliderRange");
 var output = document.getElementById("demo");
