@@ -14,3 +14,8 @@
     "comment": "Windy"
     }
 }
+fetchWeather: function() {
+    fetch("https://weatherdbi.herokuapp.com/data/weather/london")
+    .then(res=>res.json())
+    .then(json=>console.log(json)))
+}
