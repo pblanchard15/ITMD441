@@ -7,3 +7,12 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+body {
+    background-color: linear-gradient;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
